@@ -23,6 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--texto-claro);
     background-color: var(--fundo-escuro);
+    padding-top: 60px; /* Adicionado para evitar que o conteúdo da página fique por baixo do cabeçalho fixo */
 }
 
 a {
@@ -170,6 +171,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
     margin-top: 10px;
 }
+
 
 /* Seção de Introdução */
 .introducao {
@@ -418,6 +420,7 @@ h1, h2, h3, h4 {
     /* Estilos gerais */
     body {
         font-size: 16px;
+        padding-top: 0; /* Remove o padding do body em telas menores para a navegação ficar mais compacta */
     }
 
     .cabecalho {
